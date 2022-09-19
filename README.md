@@ -1,7 +1,7 @@
 # Extension Get Color Define Info
 
 ## Mô tả
-Project sử dụng cho chrome extension giúp dễ dàng thêm chi tiêu vào trang <a href="https://teamworktc.web.app.com">https://teamworktc.web.app.com</a> 
+Project sử dụng cho chrome extension giúp dễ dàng thêm chi tiêu vào trang <a href="https://teamwork-tc.web.app/">https://teamwork-tc.web.app/</a> 
 
 <img src="https://user-images.githubusercontent.com/73534639/190991280-737302fd-c6e7-4dd3-b474-bc1e9df51374.png" width="400px" />
 
