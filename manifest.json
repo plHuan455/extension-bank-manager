@@ -1,0 +1,30 @@
+{
+  "name": "Bank manager",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage", "activeTab", "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:8080/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "css":["style.css"],
+      "js": ["variables.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "ic_bank.jpg"
+    },
+    "icons": {
+      "16": "ic_bank.jpg"
+    }
+  }
+}

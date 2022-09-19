@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bank manager</title>
+  <script src="variables.js">
+
+  </script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="field field-group">
+        <label for="input-group">Group id</label>
+        <input id="input-group" name="group" type="text" />
+      </div>
+      <div class="field field-money">
+        <label for="input-money">Số tiền</label>
+        <input id="input-money" name="money" type="text" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="field">
+        <label for="input-content">Nội dung</label>
+        <input name="content" type="text" id="input-content" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="field field-time">
+        <label for="input-content">Thời gian</label>
+        <input name="time" type="text" id="input-time" />
+      </div>
+      <div class="field field-color">
+        <label for="input-color">Color</label>
+        <input name="color" type="text" id="input-color" />
+      </div>
+    </div>
+    <p id="success" class="success">OK</p>
+    <p id="loading" class="loading">Loading...</p>
+    <p id="error" class="error">error</p>
+    <button class="btn" type="button" id="btn">Tạo</button>
+  </div>
+</body>
+<script src="popup.js">
+
+</script>
+
+</html>

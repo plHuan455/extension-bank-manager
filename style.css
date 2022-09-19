@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 8px 5px;
+}
+
+.container {
+  min-width: 400px;
+}
+
+.row {
+  display: flex;
+}
+
+.row ~ .row {
+  margin-top: 5px;
+}
+
+.field {
+  width: 100%;
+}
+
+.field input {
+  border-radius: 3px;
+}
+
+.field-color {
+  max-width: 100px;
+  margin-left: 10px;
+}
+
+.field-time {
+  flex-grow: 1;
+}
+
+.field-group {
+  max-width: 150px;
+}
+
+.field-money {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.field label {
+  display: block;
+}
+.field input {
+  width: 100%;
+  outline: none;
+  border: 1px solid gray;
+  padding: 2px 5px;
+}
+
+.error {
+  color: red;
+}
+.success {
+  color: rgb(52, 180, 52);
+}
+.loading {
+  color: orange;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.hide {
+  display: none;
+}
