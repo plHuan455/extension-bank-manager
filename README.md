@@ -1,9 +1,9 @@
 # Extension Get Color Define Info
 
 ## Mô tả
-Project sử dụng cho chrome extension giúp dễ dàng lấy thông tin màu từ trang <a href="https://hexcol.com/">hexcol.com</a> để ghi vào file colors.scss trong dự án.
+Project sử dụng cho chrome extension giúp dễ dàng thêm chi tiêu vào trang <a href="https://teamworktc.web.app.com">https://teamworktc.web.app.com</a> 
 
-<img src="https://user-images.githubusercontent.com/73534639/180787671-59fc4487-2f0f-4182-b2c7-68a070164ce9.png" width="400px" />
+<img src="https://user-images.githubusercontent.com/73534639/190991280-737302fd-c6e7-4dd3-b474-bc1e9df51374.png" width="400px" />
 
 ## Sử dụng
 - Clone source code về
